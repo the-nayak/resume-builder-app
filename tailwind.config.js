@@ -63,7 +63,8 @@ module.exports = {
         900: '#744210',
       },
       green: {
-        100: '#f0fff4',
+        brand: '#0CB7A5',
+        100: '#F6FCFF',
         200: '#c6f6d5',
         300: '#9ae6b4',
         400: '#68d391',
@@ -85,6 +86,7 @@ module.exports = {
         900: '#234e52',
       },
       blue: {
+        brand: '#062964',
         100: '#ebf8ff',
         200: '#bee3f8',
         300: '#90cdf4',
@@ -140,6 +142,7 @@ module.exports = {
       '6': '1.5rem',
       '8': '2rem',
       '10': '2.5rem',
+      '11': '2.8125rem',
       '12': '3rem',
       '16': '4rem',
       '20': '5rem',
@@ -147,6 +150,7 @@ module.exports = {
       '32': '8rem',
       '40': '10rem',
       '48': '12rem',
+      '50': '12.5rem',
       '56': '14rem',
       '64': '16rem',
     },
@@ -179,6 +183,7 @@ module.exports = {
       default: '0.25rem',
       md: '0.375rem',
       lg: '0.5rem',
+      xl: '1rem',
       full: '9999px',
     },
     borderWidth: {
@@ -232,6 +237,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Poppins',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -246,7 +252,7 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: ['Calisto MT','Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
     fontSize: {
@@ -256,8 +262,8 @@ module.exports = {
       lg: '1.125rem',
       xl: '1.25rem',
       '2xl': '1.5rem',
-      '3xl': '1.875rem',
-      '4xl': '2.25rem',
+      '3xl': '2rem',
+      '4xl': '2.5rem',
       '5xl': '3rem',
       '6xl': '4rem',
     },
@@ -305,6 +311,7 @@ module.exports = {
       '8': '2rem',
       '9': '2.25rem',
       '10': '2.5rem',
+      '11': '3rem',
     },
     listStyleType: {
       none: 'none',
@@ -566,6 +573,7 @@ module.exports = {
       '-90': '-90deg',
       '-45': '-45deg',
       '0': '0',
+      '10': '10deg',
       '45': '45deg',
       '90': '90deg',
       '180': '180deg',
